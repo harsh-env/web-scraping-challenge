@@ -14,3 +14,9 @@ Part1: Scrape https://redplanetscience.com/ ; https://spaceimages-mars.com/; htt
 
 ### "index.html" helps show the data on website and enables "scrape" button/function for latest Mars data
 ![](https://github.com/harsh-env/web-scraping-challenge/blob/main/Mission_to_Mars/outputs/index_html.JPG)
+
+# Results
+### The website uses "Jumbotron" css styles for display of scraped data
+![](https://github.com/harsh-env/web-scraping-challenge/blob/main/Mission_to_Mars/outputs/final_app_1.JPG)
+![](https://github.com/harsh-env/web-scraping-challenge/blob/main/Mission_to_Mars/outputs/final_app_2.JPG)
+
