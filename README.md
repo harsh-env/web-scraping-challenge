@@ -8,3 +8,9 @@ Part1: Scrape https://redplanetscience.com/ ; https://spaceimages-mars.com/; htt
 
 ### A python file from jupyter notebook was created "scrape_mars.py" to enable scraping and rendering on website
 ![](https://github.com/harsh-env/web-scraping-challenge/blob/main/Mission_to_Mars/outputs/scrape_mars_py.JPG)
+
+### "app.py" uses Flask to render the index.html and also makes a mongo database for storing data - this is what enables the Scraping from index.html
+![](https://github.com/harsh-env/web-scraping-challenge/blob/main/Mission_to_Mars/outputs/app_py.JPG)
+
+### "index.html" helps show the data on website and enables "scrape" button/function for latest Mars data
+![](https://github.com/harsh-env/web-scraping-challenge/blob/main/Mission_to_Mars/outputs/index_html.JPG)
