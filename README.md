@@ -5,4 +5,4 @@ Part1: Scrape https://redplanetscience.com/ ; https://spaceimages-mars.com/; htt
 
 ## Scraping Python Code - Full code listed in mission_to_mars.ipynb
 ![](https://github.com/harsh-env/web-scraping-challenge/blob/main/Mission_to_Mars/outputs/Scraping_web_1.JPG)
-![](https://github.com/harsh-env/web-scraping-challenge/blob/main/Mission_to_Mars/outputs/Scraping_web_2.JPG)
+
