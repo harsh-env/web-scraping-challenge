@@ -3,6 +3,8 @@ Part1: Scrape https://redplanetscience.com/ ; https://spaceimages-mars.com/; htt
 ### An exmaple of how the websites were analyzed for scraping is below. Additional Website scraping analysis snaps are in "outputs folder
 ![](https://github.com/harsh-env/web-scraping-challenge/blob/main/Mission_to_Mars/outputs/webpage_content_search.JPG)
 
-## Scraping Python Code - Full code listed in mission_to_mars.ipynb
+### Scraping Python Code - Full code listed in mission_to_mars.ipynb
 ![](https://github.com/harsh-env/web-scraping-challenge/blob/main/Mission_to_Mars/outputs/Scraping_web_1.JPG)
 
+### A python file from jupyter notebook was created "scrape_mars.py" to enable scraping and rendering on website
+![](https://github.com/harsh-env/web-scraping-challenge/blob/main/Mission_to_Mars/outputs/scrape_mars_py.JPG)
