@@ -21,30 +21,40 @@
     </div>
       <!-- Latest News and featured image -->
     <div class="container-fluid">
-        <div class="col-md-12">
-          <h2><strong> Latest Mars News</strong></h2> <h6>{{Mars.Latest_news_Date}}</h6>
-          <h4><strong>{{Mars.Latest_news_Title}}</strong></h4>
-          <h5>{{Mars.Latest_news_Paragraph}}</h5>
-        </div>
-    </div>
-      
-    <div class="col-md-6">
-        <h2>Featured Mars Image</h2>
-        <img src="{{Mars.Featured_image_url}}" width="600" height="400" alt="Mars">
-    </div>
-
-    <div class="container-fluid">
-      <div class="col-md-6">
-        <h2 class = text-left>Mars Facts </h2>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="table">
-            <p>{{Mars.Mars_facts_html_table|safe}}</p>
+      <div class="col-md-12">
+        <div class = "row">
+          <div col-md-12>
+            <h2 class = text-left> Latest Mars News </h2> 
+            <!-- <div class = "thumbnail"> -->
+              <h6>{{Mars.Latest_news_Date}}</h6>
+              <h4><strong>{{Mars.Latest_news_Title}}</strong></h4>
+              <h5>{{Mars.Latest_news_Paragraph}}</h5>
+            <!-- </div> -->
           </div>
         </div>
       </div>
     </div>
-      
+
+    <div class="container-fluid">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="content-single">
+              <h2 class="pic-title"> Featured Mars Image</h2>
+              <img src="{{Mars.Featured_image_url}}" width="720" height="650" alt="Mars">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="sidebar">
+            <h2> Mars Facts </h2>
+              <div class="table table-stripped">
+                <h3>{{Mars.Mars_facts_html_table|safe}}</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
 
     <!--display the hemispheres' images and titles-->
     <div class="container-fluid">
@@ -86,17 +96,8 @@
         </div>
       </div>
     </div>
-              
           
-
-          
-          
-
-          
-          
-    </div>
-  
-    
+   
   </body>
   
 </html>
