@@ -51,7 +51,10 @@ def scrape_web():
     url = 'https://galaxyfacts-mars.com/'
     tables = pd.read_html(url)
     df = tables[0]
-    mars_facts_html = df.to_html(header = False, index = False)
+    df.columns = ['Description', 'Mars', 'Earth']
+    dfa = df.set_index('Description')
+    # mars_facts_html = df.to_html(header = False, index = False)
+    mars_facts_html = dfa.to_html(classes="table table-striped")
 
     # =============================================================================
 
